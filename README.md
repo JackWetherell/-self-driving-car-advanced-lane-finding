@@ -9,8 +9,8 @@ Relevent directories and files:
 - examples: Directory containing some example data and code.
 - output_images: Directory containing the results of the pipeline applied to the test images.
 - test_images: Directory containing the test images to test the pipeline.
-- advanced_lane_finding.ipynb: Notebook constaining all code and results.
-- advanced_lane_finding.pdf: Print out of the notebook constaining all code and results
+- advanced_lane_finding.ipynb: Notebook containing all code and results.
+- advanced_lane_finding.pdf: Print out of the notebook containing all code and results
 - project_video: Input video to annotate.
 - project_video_output: Output annotated video. (FINAL RESULT)
 - project_video_output_outliers: Output annotated video before outliers are removed.
