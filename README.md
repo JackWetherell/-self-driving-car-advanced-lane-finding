@@ -1,17 +1,34 @@
-## Advanced Lane Finding
+# Advanced Lane Finding
+
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
-![Lanes Image](./examples/example_output.jpg)
 
-In this project, the goal is to write a software pipeline to identify the lane boundaries in a video.
+In this project, the goal is to write a software pipeline to identify curved lane boundaries in a video.
 
-Relevent directories and files:
-- camera_cal: Directory of all camera calibration images.
-- examples: Directory containing some example data and code.
-- output_images: Directory containing the results of the pipeline applied to the test images.
-- test_images: Directory containing the test images to test the pipeline.
-- advanced_lane_finding.ipynb: Notebook containing all code and results.
-- advanced_lane_finding.pdf: Print out of the notebook containing all code and results
-- project_video: Input video to annotate.
-- project_video_output: Output annotated video. (FINAL RESULT)
-- project_video_output_outliers: Output annotated video before outliers are removed.
-- writeup.pdf: Write up of the method, results and discussion.
+![Demo](./demo.gif)
+
+## Requirements
+
+- `numpy`
+- `scipy`
+- `matplotlib`
+- `opencv`
+- `jupyterlab`
+
+## Usage
+To run the pipeline simply launch and run the notebook:
+
+`jupyter lab`
+
+## Directory structure
+```
+|-- demo.gif                            -> Demo of the pipeline.
+|-- advanced_lane_finding.ipynb         -> Notebook containing all code and results.
+|-- advanced_lane_finding.pdf           -> Print out of the notebook containing all code and results.
+|-- camera_cal                          -> Directory containing camera calibration images.
+|-- output_images                       -> Output images at various stages of the pipeline.
+|-- test_images                         -> Images to test pipeline.
+|-- project_video.mp4                   -> Test video.
+|-- project_video_output.mp4            -> Pipeline applied to test video.
+|-- project_video_output_outliers.mp4   -> Pipeline applied to test video before fix.
+`-- writeup                             -> Write up of the method, results and discussion.
+```
